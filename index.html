@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body onload="newtime()">
+    
+    <div class="clocklogo">
+        <img src="./clock_logo.png" alt="">
+    </div>
+    
+
+
+
+    <div class="parent">
+        <div class="Wakeup">
+            <div class="class"> <img src="./wake_up.png" alt=""></div>
+            <div class="text1">Set wake up time</div>
+            <div class="drop1">
+                <select class="select1" name="optional" id="down1">
+                    <option value="0">Default</option>
+                    <option value="8 AM">8Am - 9Am</option>
+                    <option value="9 AM">9Am - 10Am</option>
+                    <option value="10 AM">10Am - 11Am</option>
+                    <option value="11 AM">11Am - 12Pm</option>
+                    <option value="12 PM">12Pm - 1Pm</option>
+                    <option value="1 PM">1Pm - 2Pm</option>
+                    <option value="2 PM">2Pm - 3Pm</option>
+                    <option value="3 PM">3Pm - 4Pm</option>
+                    <option value="4 PM">4Pm - 5Pm</option>
+                    <option value="5 PM">5Pm - 6Pm</option>
+
+                </select>
+            </div>
+        </div>
+        <div class="bar1">
+
+        </div>
+        <div class="lunch">
+            <div class="class2"> <img src="./lunch_time.png" alt=""></div>
+            <div class="text2">Set lunch time</div>
+            <div class="drop2">
+                <select class="select2" name="optional" id="down2">
+                    <option value="0">Default</option>
+                    <option value="8 AM">8Am - 9Am</option>
+                    <option value="9 AM">9Am - 10Am</option>
+                    <option value="10 AM">10Am - 11Am</option>
+                    <option value="11 AM">11Am - 12Pm</option>
+                    <option value="12 PM">12Pm - 1Pm</option>
+                    <option value="1 PM">1Pm - 2Pm</option>
+                    <option value="2 PM">2Pm - 3Pm</option>
+                    <option value="3 PM">3Pm - 4Pm</option>
+                    <option value="4 PM">4Pm - 5Pm</option>
+                    <option value="5 PM">5Pm - 6Pm</option>
+
+                </select>
+            </div>
+        </div>
+        <div class="bar2">
+            
+        </div>
+        <div class="dinner">
+            <div class="class3"> <img src="./nap_time.png" alt=""></div>
+            <div class="text3">Set nap time</div>
+            <div class="drop3">
+                <select class="select3" name="optional" id="down3">
+                    <option value="0">Default</option>
+                    <option value="8 AM">8Am - 9Am</option>
+                    <option value="9 AM">9Am - 10Am</option>
+                    <option value="10 AM">10Am - 11Am</option>
+                    <option value="11 AM">11Am - 12Pm</option>
+                    <option value="12 PM">12Pm - 1Pm</option>
+                    <option value="1 PM">1Pm - 2Pm</option>
+                    <option value="2 PM">2Pm - 3Pm</option>
+                    <option value="3 PM">3Pm - 4Pm</option>
+                    <option value="4 PM">4Pm - 5Pm</option>
+                    <option value="5 PM">5Pm - 6Pm</option>
+
+                </select>
+            </div>
+        </div>
+    </div>
+    
+   
+
+
+
+    <button onclick="addText() " id="class1" >Set time!</button>
+     <div id="hide"></div>
+
+   
+
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3">
+       
+    </div>
+    <div class="word">Time</div>
+    <div class="smallbox1">
+        <div id="hours"></div>
+        <p class="t1">hours</p>
+    </div>
+    <div class="smallbox2">
+        <div id="mins"></div>
+        <p class="t2">mins</p>
+    </div>
+    <div class="smallbox3">
+        <div id="secs"></div>
+        <p class="t3">secs</p>
+    </div>
+    <div class="smallbox4">
+        <div id="ampm"></div>
+        
+    </div>
+    <div class="afterhour">:</div>
+    <div class="aftermin">:</div>
+    
+    
+    <div id="block1"> Let's Have Some Lunch </div>
+    <div id="img1">
+        <img src="./dinner.png"  width="350px" height="300px" alt="">
+    </div>
+    <div id="message">Good Afternoon!!</div>
+
+<script src="./index.js"></script>
+</body>
+</html>
